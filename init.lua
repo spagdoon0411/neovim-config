@@ -36,3 +36,4 @@ local function system(command)
 end
 
 vim.g.python3_host_prog = system("which python")
+vim.g.python_host_prog = system("which python")
